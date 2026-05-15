@@ -4,7 +4,7 @@
   --purple: hsl(245, 83%, 68%);
   --blue-950: hsl(223, 47%, 23%);
   --blue-700: hsl(245, 75%, 52%);
-  --blue-150: hsl(224, 100%, 92%);
+  --blue-150: hsl(224, 94%, 86%);
   --blue-100: hsl(225, 100%, 94%);
   --blue-50: hsl(225, 100%, 98%);
   --line-height-135: 135%;
@@ -68,6 +68,7 @@ body {
   align-items: center;
   background-image: url("./images/pattern-background-mobile.svg");
   background-repeat: no-repeat;
+  background-size: 100%;
   height: 87vh;
 }
 
@@ -142,6 +143,11 @@ body {
   color: var(--blue-700);
 }
 
+.change:hover {
+  color: var(--purple);
+  cursor: pointer;
+}
+
 .plan-info {
   display: flex;
   flex-direction: row;
@@ -171,6 +177,11 @@ body {
   color: var(--gray);
 }
 
+.cancel:hover {
+  color: var(--blue-950);
+  cursor: pointer;
+}
+
 .payment-container {
   display: flex;
   flex-direction: column;
@@ -191,7 +202,46 @@ body {
   font-weight: var(--font-weight-bold);
 }
 
+.proceed-button:hover {
+  background-color: var(--purple);
+  cursor: pointer;
+}
+
 .credits {
   text-align: center;
   font-size: var(--font-size-12);
+  color: var(--gray);
+  & .link {
+    text-decoration: none;
+  }
+
+  & .link:hover {
+    text-decoration: underline;
+  }
+
+  & .link:visited {
+    color: var(--blue-700);
+  }
+}
+
+@media screen and (min-width: 46.875em) {
+  .summary-card {
+    width: var(--tab-desk-max-width);
+  }
+  .summary-content {
+    padding-left: var(--spacing-48);
+    padding-right: var(--spacing-48);
+  }
+
+  .payment-container {
+    margin-bottom: 2.6875rem;
+    gap: var(--spacing-32);
+  }
+}
+
+@media screen and (min-width: 62.5em) {
+  body {
+    background-image: url("./images/pattern-background-desktop.svg");
+    height: 100vh;
+  }
 }
