@@ -184,8 +184,8 @@ body {
   color: var(--blue-950);
 }
 
-.change a,
-.cancel a {
+.change,
+.cancel {
   text-decoration: none;
 }
 
