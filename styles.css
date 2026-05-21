@@ -143,6 +143,10 @@ body {
   cursor: pointer;
 }
 
+.change:focus-visible {
+  color: var(--purple);
+}
+
 .plan-info {
   display: flex;
   font-size: var(--font-size-15);
@@ -176,6 +180,10 @@ body {
   cursor: pointer;
 }
 
+.cancel:focus-visible {
+  color: var(--blue-950);
+}
+
 .change a,
 .cancel a {
   text-decoration: none;
@@ -204,6 +212,10 @@ body {
 .proceed-button:hover {
   background-color: var(--purple);
   cursor: pointer;
+}
+
+.proceed-button:focus-visible {
+  background-color: var(--purple);
 }
 
 .credits {
