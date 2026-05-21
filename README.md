@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
+- [Solution URL](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
 - [Live Site URL](https://freexm1nd.github.io/order-summary-component/)
 
 ## My process
