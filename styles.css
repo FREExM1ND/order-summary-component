@@ -176,7 +176,8 @@ body {
   cursor: pointer;
 }
 
-a {
+.change a,
+.cancel a {
   text-decoration: none;
 }
 
