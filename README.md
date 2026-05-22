@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
+- [Solution URL](https://www.frontendmentor.io/solutions/responsive-order-summary-card-Xgwkta2Az9)
 - [Live Site URL](https://freexm1nd.github.io/order-summary-component/)
 
 ## My process
